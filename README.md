@@ -81,7 +81,7 @@ This project is built with Laravel version 9.52.16 and requires PHP version 8.0.
 ### Steps
 
   -  git clone https://github.com/nandydev/RESTAPI-Management
-  -  cd <repository-directory>
+  -  cd repository-directory
   -  Laravel version - v9.52.16 
   -  PHP Version -  v8.0.30
   -  clone this git package
