@@ -64,3 +64,31 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Installation Steps
+
+### create database - laravel-restapi
+### Mention it in the env file
+### Install the composer or update the composer
+### run php atisan server,npm install and npm run dev (i have used breeze it need to run npm)
+### php artisan migrate to import the database sturcture or else use the sql attachment to import it 
+### run the server - php artisan serve
+
+
+## Goto Postman 
+
+   http://127.0.0.1:8000/api/register - body -> form-data -> name, email, password
+   http://127.0.0.1:8000/api/login    - body -> raw -> 
+   admin login
+   {
+    "email":"admin@gmail.com",
+    "password":123456789
+   }
+
+   user login
+   {
+    "email":"user@gmail.com",
+    "password":123456789
+   }
+   
+   
