@@ -65,30 +65,32 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
+# Laravel Project
+
+## Overview
+This project is built with Laravel version 9.52.16 and requires PHP version 8.0.30. Follow the steps below to set up the project on your local machine.
+
 ## Installation Steps
 
-### create database - laravel-restapi
-### Mention it in the env file
-### Install the composer or update the composer
-### run php atisan server,npm install and npm run dev (i have used breeze it need to run npm)
-### php artisan migrate to import the database sturcture or else use the sql attachment to import it 
-### run the server - php artisan serve
+### Prerequisites
+- Laravel version - v9.52.16 
+- PHP Version -  v8.0.30
+- Composer
+- Node.js and npm
+
+### Steps
+
+   git clone [<repository-url>](https://github.com/nandydev/RESTAPI-Management)
+   cd <repository-directory>
+   Laravel version - v9.52.16 
+   PHP Version -  v8.0.30
+   clone this git package
+   composer install 
+   cp .env.example .env 
+   Create database and modify .env with your DB name and php artisan jwt:secret get the token and mention it in env JWT_SECRET
+   php artisan key:generate
+   php artisan migrate or else import the attached sql (if your migrating do forget to seed to data for role)
+   npm install && npm run dev
+   php artisan serve
 
 
-## Goto Postman 
-
-   http://127.0.0.1:8000/api/register - body -> form-data -> name, email, password
-   http://127.0.0.1:8000/api/login    - body -> raw -> 
-   admin login
-   {
-    "email":"admin@gmail.com",
-    "password":123456789
-   }
-
-   user login
-   {
-    "email":"user@gmail.com",
-    "password":123456789
-   }
-   
-   
