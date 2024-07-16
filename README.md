@@ -80,17 +80,17 @@ This project is built with Laravel version 9.52.16 and requires PHP version 8.0.
 
 ### Steps
 
-   git clone [<repository-url>](https://github.com/nandydev/RESTAPI-Management)
-   cd <repository-directory>
-   Laravel version - v9.52.16 
-   PHP Version -  v8.0.30
-   clone this git package
-   composer install 
-   cp .env.example .env 
-   Create database and modify .env with your DB name and php artisan jwt:secret get the token and mention it in env JWT_SECRET
-   php artisan key:generate
-   php artisan migrate or else import the attached sql (if your migrating do forget to seed to data for role)
-   npm install && npm run dev
-   php artisan serve
+  -  git clone [<repository-url>](https://github.com/nandydev/RESTAPI-Management)
+  -  cd <repository-directory>
+  -  Laravel version - v9.52.16 
+  -  PHP Version -  v8.0.30
+  -  clone this git package
+  -  composer install 
+  -  cp .env.example .env 
+  -  Create database and modify .env with your DB name and php artisan jwt:secret get the token and mention it in env JWT_SECRET
+  -  php artisan key:generate
+  -  php artisan migrate or else import the attached sql (if your migrating do forget to seed to data for role)
+  -  npm install && npm run dev
+  -  php artisan serve
 
 
